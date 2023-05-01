@@ -19,9 +19,9 @@ def decode(words, n):
 
     return ans
 
-
-words = "HELLO EVERYONE"
-n = int(input("몇 칸 옮길지 정하시오: "))
-print("Plain  Text is : " + words)
-print("Shift pattern is : " + str(n))
-print("chipher test is : " + decode(words, n))
+if __name__ == "__main__":
+    words = "HELLO EVERYONE"
+    n = int(input("몇 칸 옮길지 정하시오: "))
+    print("Plain  Text is : " + words)
+    print("Shift pattern is : " + str(n))
+    print("chipher test is : " + decode(words, n))
